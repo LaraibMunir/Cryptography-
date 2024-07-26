@@ -1,0 +1,26 @@
+It is an example of Symmetric Key Cryptography
+In symmetric key cryptography, the same key is used for both encryption and decryption.
+
+Caesar Cipher
+simple substitution cipher where each letter in the plaintext is shifted a certain number of places down the alphabet.
+It's a very simple form of encryption named after Julius Caesar, who reportedly used it to communicate securely.
+
+#Example
+Plain text: Hello
+Cypher text: Khoor
+
+Encryption 
+'H' -> ASCII: 72 -> 72 + 3 - 65 = 10 -> (10) % 26 = 10 -> 10 + 65 = 75 -> 'K'
+Decryption
+'K' -> ASCII: 75 -> 75 - 3 - 65 = 7 -> (7) % 26 = 7 -> 7 + 65 = 72 -> 'H'
+
+
+eg H : shift 3: H,I,J,K
+65: ASCII value of 'A'
+97: ASCII value of 'a'
+26: Total no. of alphabets in English 
+
+
+
+The loop iterates through each character in the input text to apply the shift
+result is an empty string to store the final encrypted text.
