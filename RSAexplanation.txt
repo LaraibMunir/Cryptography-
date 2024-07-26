@@ -1,0 +1,12 @@
+It is a type of Asymmetric Key Cryptography 
+In asymmetric key cryptography, different keys are used for encryption and decryption – typically a public key for encryption and a private key for decryption.
+
+RSA (Rivest-Shamir-Adleman)
+RSA encryption involves generating two large prime numbers, multiplying them, and using this product along with an exponent to generate public and private
+
+
+Key Generation:
+Generate two large prime numbers:  𝑝 and 𝑞
+Compute totient function: 𝜙(𝑛)=(𝑝−1)×(𝑞−1)
+Choose an encryption exponent 𝑒: e should be coprime with 𝜙(𝑛) and typically chosen as 65537 for efficiency.
+Compute the decryption exponent 𝑑: d is multiplicative inverse of e
